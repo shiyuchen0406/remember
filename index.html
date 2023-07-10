@@ -1,89 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>成员登录</title>
-  <link href="static/css/css.css" rel="stylesheet">
-
-
-<link href="static/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"><link rel="stylesheet" href="static/css/style.css">
-
+    
+    <title>Document</title>
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<div class="box-form">
-	<div class="left">
-		<div class="overlay">
-		<h1>Hello Friend.</h1>
-		<p>相知，相遇，六年</p>
-		<span>
-			<p>login with password</p>
-			<a href="#"><i class="" aria-hidden="true"></i></a>
-			<a href="#"><i class="" aria-hidden="true"></i> </a>
-		</span>
-		</div>
-	</div>
-	
-	
-		<div class="right">
-		<h5>登录</h5>
-		<p>没有账号? <a href="#">创建一个！</a> </p>
-		<div class="inputs">
-			<input type="text" placeholder="user name" id="username">
-			<br>
-			<input type="password" placeholder="password" id="passwd">
-		</div>
-			
-			<br><br>
-			
-		<div class="remember-me--forget-password">
-				<!-- Angular -->
-	<label>
-		<input type="checkbox" name="item" checked/="">
-		<span class="text-checkbox">记住我</span>
-	</label>
-			<p>忘记密码，不可能</p>
-		</div>
-			
-			<br>
-			<button onclick="login()">登录</button>
-	</div>
-	<script type="text/javascript">
-		let accountAll = [{ // 存储账户json数据的数组
-				username: 'shiyuchen',
-				passwd: '0406'
-			},
-			{
-				username: 'wanglitai',
-				passwd: 'wlt'
-			},
-			{
-				username: 'linjunxi',
-				passwd: 'ljx'
-			},
-			{
-				username: 'changyunhe',
-				passwd: '1210'
-			},
-		]
-		function login() { //登陆判断
-			let username = document.getElementById('username').value;
-			let passwd = document.getElementById('passwd').value;
-			let account = accountAll.filter(function(e) {
-				return e.username == username
-			})[0]; // 筛选账号返回数组，不存在则返回空数组
-			if (!account) {
-				alert('账户不存在');
-			} else {
-				if (account.username == username && account.passwd == passwd) {
-					alert('登陆成功');
-					window.location.href="home.html";
-				} else {
-					alert('登陆失败');
-				}
-			}
-		}
-
-<!-- partial -->
-
-
+    <script type="text/javascript">   
+        loopy()   
+        function loopy() {   
+        var sWord =""  
+        while (sWord != "202307") {//设置密码 初始密码tzpr.cn
+        sWord = prompt("输入正确密码才能登陆!")   
+        }   
+        alert("欢迎访问")   
+        }   
+        </script> 
+        
+        </body>
+</html>
