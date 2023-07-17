@@ -2,7 +2,7 @@
     width:200px;
     height:200px;
     margin: 100px auto;
-    background: url("../images/xuanzhuan/shu.jpg") no-repeat;
+    background: url("https://i.postimg.cc/vcsVwSH4/shu.png") no-repeat;
     background-size: cover;
     transform-style: preserve-3d;
     position: absolute;
@@ -22,32 +22,32 @@
     background: no-repeat;
 }
 .xuanzhuan div:nth-child(1){ /*0,0,2,1*/
-    background: url("../images/xuanzhuan/1.jpg");
+    background: url("https://i.postimg.cc/k2w8cFCB/1.jpg");
     background-size: cover;
     transform:rotateY(0deg) translateZ(400px);
 }
 .xuanzhuan div:nth-child(2){
-    background: url("../images/xuanzhuan/2.jpg");
+    background: url("https://i.postimg.cc/t1M60qYb/2.jpg");
     background-size: cover;
     transform:rotateY(60deg) translateZ(400px);
 }
 .xuanzhuan div:nth-child(3){
-    background: url("../images/xuanzhuan/3.jpg");
+    background: url("https://i.postimg.cc/8F5vnJkw/3.jpg");
     background-size: cover;
     transform:rotateY(120deg) translateZ(400px);
 }
 .xuanzhuan div:nth-child(4){
-    background: url("../images/xuanzhuan/4.jpg");
+    background: url("https://i.postimg.cc/5YQCbhCC/4.png");
     background-size: cover;
     transform:rotateY(180deg) translateZ(400px);
 }
 .xuanzhuan div:nth-child(5){
-    background: url("../images/xuanzhuan/5.jpg");
+    background: url("https://i.postimg.cc/xNrbC6vF/5.jpg");
     background-size: cover;
     transform:rotateY(240deg) translateZ(300px);
 }
 .xuanzhuan div:nth-child(6){
-    background: url("../images/xuanzhuan/6.jpg");
+    background: url("https://i.postimg.cc/GTkTsvz3/6.jpg");
     background-size: cover;
     transform:rotateY(300deg) translateZ(300px);
 }
